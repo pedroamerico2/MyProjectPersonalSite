@@ -46,6 +46,7 @@ body{
     outline-style: none;
     border-radius: 10px;
     border-style: none;
+    background-color: white;
 }
 .planoDeFundo form .enviar:hover{
     background-color: sandybrown;
