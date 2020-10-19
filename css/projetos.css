@@ -33,34 +33,4 @@ header .menu li a{
 footer{
     background-color: red;
 }
-.capa{
-    width: 100%;
-    height: 100vh;
-    background-color: orange;
 
-}
-.sobre{
-    width: 100%;
-    height: 600px;
-    background: orchid;
-}
-.projetos{
-    width: 100%;
-    height: 200px;
-}
-.contato{
-    width: 100%;
-    height: 500px;
-    background-color: peru;
-}
-.imagem{
-    width: 250px;
-    height: 250px;
-    background-color: peru;
-}
-.capa h2{
-    margin-left: 100px;
-}
-.capa p{
-    margin-left: 10px;
-}
