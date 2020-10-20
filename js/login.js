@@ -1,5 +1,4 @@
 function logar(){
-    var logado = false
     var email = document.getElementById("email")
     var senha = document.getElementById("senha")
     if(email.value == "site@teste" && senha.value == "site"){
