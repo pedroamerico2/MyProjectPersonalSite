@@ -1,9 +1,24 @@
 *{
     margin: 0;
     padding: 0;
-}
-body{
     font-family: sans-serif;
+}
+header{
+
+}
+main{
+    width: 100%;
+    background-color: wheat;
+}
+main .n-acessos h1{
+    margin-top: 50px;
+    text-align: center;
+}
+main .n-acessos P{
+    color: tomato;
+}
+footer{
+
 }
 .planoDeFundo{
     position: absolute;

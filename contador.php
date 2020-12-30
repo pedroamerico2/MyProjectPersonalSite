@@ -13,8 +13,5 @@
     fwrite($id, $conteudo, strlen($conteudo) +5);
     fclose($id);
     clearstatcache();
-    echo "  <div class = 'nCont'>
-                <h1> Visitante nº:  </h1>
-                <p>$conteudo</p>
-            </div>";
+    echo "<p>$conteudo</p>";
 ?>
