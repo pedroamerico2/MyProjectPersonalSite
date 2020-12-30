@@ -1,5 +1,5 @@
 <?php
-    $contador ="../files/reg.txt";
+    $contador ="reg.txt";
     define("adi",1);
 
     $id = fopen($contador, "r+");
@@ -13,5 +13,8 @@
     fwrite($id, $conteudo, strlen($conteudo) +5);
     fclose($id);
     clearstatcache();
-    echo($conteudo);
+    echo "  <div class = 'nCont'>
+                <h1> Visitante nº:  </h1>
+                <p>$conteudo</p>
+            </div>";
 ?>

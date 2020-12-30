@@ -11,9 +11,9 @@
         <img src="./img/iconeAdvertencia.png" class="advertencia" alt="">
         <h1>PAGINA EM CONSTRUÇÃO</h1>
         <p>Américo agradece a visita :)</p>        
-    </div>ur
+    </div>
     <?php
-        include ("./script/contador.php");
+        include ("contador.php");
     ?>
 </body>
 
