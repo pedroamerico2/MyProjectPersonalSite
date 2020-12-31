@@ -16,7 +16,9 @@
             <div class = "n-acessos">
                 <h1> Visitante nº:  </h1>
                 <?php
-                    include ("contador.php");
+                    include ("contadorIp.php");
+                    $Visitas = new ClassVisitas();
+                    $Visitas -> VerificaUsuario();
                 ?>
             </div>      
         </div>
@@ -25,5 +27,4 @@
     
     
 </body>
-
 </html>
