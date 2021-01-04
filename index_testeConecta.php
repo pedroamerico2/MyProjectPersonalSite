@@ -15,11 +15,11 @@
             <p>Américo agradece a visita :)</p>  
             <div class = "n-acessos">
                 <h1> Visitante nº:  </h1>
-                <?php
-                    include ("contadorIp.php");
-                    $Visitas = new ClassVisitas();
-                    $Visitas -> VerificaUsuario();
-                    clearstatcache();
+                <?php   
+                    include ("./script/conecta_teste.php");
+                    $conexao = new ClassConexao();
+                    $resultado = $conexao -> Conectar();
+                    var_dump($resultado)
                 ?>
             </div>      
         </div>

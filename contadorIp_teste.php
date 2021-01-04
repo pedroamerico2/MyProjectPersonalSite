@@ -10,7 +10,7 @@
             $this->Ip=$_SERVER['REMOTE_ADDR'];
             $this->Data=date("Y/m/d");
             $this->Hora=date("H:i");
-            $this->Limite=1800000;
+            $this->Limite=50;
         }
 
         #Verifica se o usuário recebeu visita recentemente
@@ -32,10 +32,7 @@
                     $this->InserindoVisitas();
                 }
             }
-            $teste=$this->Conectar()->prepare("select * from contadorSiteInno");
-            $teste->execute();
-            
-            echo "<p>".$teste->rowCount()."</p>";
+            echo "<p>".$Select->rowCount()."</p>";
         }
 
         #Inseri a visita no banco de dados

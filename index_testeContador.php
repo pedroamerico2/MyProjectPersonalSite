@@ -16,10 +16,9 @@
             <div class = "n-acessos">
                 <h1> Visitante nº:  </h1>
                 <?php
-                    include ("contadorIp.php");
+                    include ("contadorIp_teste.php");
                     $Visitas = new ClassVisitas();
                     $Visitas -> VerificaUsuario();
-                    clearstatcache();
                 ?>
             </div>      
         </div>
