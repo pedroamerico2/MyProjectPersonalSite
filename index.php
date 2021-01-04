@@ -22,7 +22,13 @@
                 ?>
                 <h1> Café de amanhã sera de:  </h1>
                 <?php
-                    include ("sort.php")
+                    include ("sort.php");
+                    $sorts = new sorteadores();
+                    $sorts -> sortCafe();
+                ?>
+                <h1>Gerador de senha: </h1>
+                <?php
+                    $sorts -> sortPassword();
                 ?>
             </div>      
         </div>
