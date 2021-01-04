@@ -20,6 +20,10 @@
                     $Visitas = new ClassVisitas();
                     $Visitas -> VerificaUsuario();
                 ?>
+                <h1> Café de amanhã sera de:  </h1>
+                <?php
+                    include ("sort.php")
+                ?>
             </div>      
         </div>
     </main>
