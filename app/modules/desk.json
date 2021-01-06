@@ -1,0 +1,37 @@
+{
+    "Pesquisa":"",
+    "Tatual":"", 
+    "StatusSLA":"",
+    "Colunas": 
+    {
+      "Chave":"on",		
+      "CodChamado":"on",	
+      "NomePrioridade":"on",	
+      "DataCriacao":"on",	
+      "HoraCriacao":"on",	
+      "DataFinalizacao":"on",	
+      "HoraFinalizacao":"on",
+      "DataAlteracao":"on", 	
+      "HoraAlteracao":"on", 	
+      "NomeStatus":"on",	
+      "Assunto":"on",	
+      "Descricao":"on",
+      "ChaveUsuario":"on",		
+      "NomeUsuario":"on",		
+      "SobrenomeUsuario":"on",
+      "NomeOperador":"on",		
+      "SobrenomeOperador":"on",	
+      "TotalAcoes":"on",		
+      "TotalAnexos":"on",
+      "Sla":"on",		
+      "SequenciaGrupo":"on",	
+    "NomeGrupo":"on"	
+    },
+    "Ordem": [	
+      {
+        "Coluna": "Chave",
+        "Direcao": "true"	
+      }
+    ]
+  }
+  

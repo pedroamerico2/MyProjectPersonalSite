@@ -1,0 +1,35 @@
+{
+    "root":
+    [
+      {
+      "Chave":"1",
+      "CodChamado":"1013-000001",
+      "NomePrioridade":"5 - PLANEJADA",
+      "DataCriacao":"2013-10-31",
+      "HoraCriacao": "11:02:38",
+      "DataFinalizacao":"2013-10-31",
+      "HoraFinalizacao": "16:41",
+      "DataAlteracao":"2013-11-01",
+      "HoraAlteracao":"10:30:25",
+      "NomeStatus":"RESOLVIDO",
+      "Assunto":"TI - MONITOR N\u00c3O LIGA",
+      "Descricao":"Meu monitor n\u00e3o est\u00e1 ligando.\r\n\r\nPoderiam verificar?\r\n\r\nGrato",
+      "ChaveUsuario":"322",
+      "NomeUsuario":"RAFAEL",
+      "SobrenomeUsuario":"TEIXEIRA",
+      "NomeOperador":"CELIO",
+      "SobrenomeOperador":"FABIANO",
+      "TotalAcoes":"2",
+      "TotalAnexos":"0",
+      "SlaInternoCliente":"C", 			
+      "TempoRestantePrimeiroAtendimento":"-00:03:05",
+      "TempoRestanteSegundoAtendimento":"03:59:10",	
+      "ExpiraEm":"2017-12-13 00:02",	
+      "SlaAndamento":"S",		
+      "Sla1Expirado":"S",		
+      "Sla2Expirado":"N",		
+      "SequenciaGrupo":"000012", 	
+      "NomeGrupo":"Suporte Nível 1"
+      }
+    ]
+  }
